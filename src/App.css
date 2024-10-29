@@ -1,0 +1,45 @@
+.banner-bg{
+  background-color: rgb(210, 194, 46);
+}
+
+.monster {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.eye {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  font-size: 40px;
+  /* To increase X size */
+  text-align: center;
+  line-height: 50px;
+  /* To center X vertically */
+}
+
+.eye:nth-child(1) {
+  left: 40px;
+}
+
+.eye:nth-child(2) {
+  right: 40px;
+}
+
+.mouth {
+  width: 120px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
